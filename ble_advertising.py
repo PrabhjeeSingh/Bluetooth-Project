@@ -99,9 +99,7 @@ def demo():
     )
     print(payload)
     print(decode_name(payload))
-    print(decode_services(payload))
-
-
+    
 if __name__ == "__main__":
     demo()
 

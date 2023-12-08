@@ -2,10 +2,11 @@ import machine, utime, ubluetooth
 from ble_advertising import advertising_payload as adpl
 
 # Initalize bluetooth and make it run!
-pl = adpl(name='bluetooththingy', customData="stop")
+pl = adpl(name='bluetooththingy', customData="red", services=[ubluetooth.UUID(0x181A)])
 led = machine.Pin(2, machine.Pin.OUT)
 bt = ubluetooth.BLE()
 bt.active(True)
+print('Bluetooth enabled.')
 
 # Enable flag.
 advertising = True
