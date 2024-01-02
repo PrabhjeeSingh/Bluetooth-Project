@@ -1,2 +1,2 @@
-# Bluetooth-Project-3215
+# Bluetooth-Traffic-Signs
 https://docs.micropython.org/en/v1.15/library/ubluetooth.html
