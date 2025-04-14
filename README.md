@@ -8,7 +8,7 @@ The project consists of two main components:
 1. **Traffic Sign Emitter**: An ESP32 device that broadcasts traffic sign information using BLE advertising
 2. **Vehicle Receiver**: An ESP32 device that receives and processes the traffic sign information
 
-[Esp 32 chip image](/image.png)
+<img src="https://github.com/user-attachments/assets/e84c26b5-e853-46b1-8cc5-d7ec8553562f" width=300px />
 
 ## Technical Details
 
